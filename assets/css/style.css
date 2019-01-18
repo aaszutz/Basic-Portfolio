@@ -4,9 +4,10 @@ header {
     padding: 50px;
     background: white;
     position: relative;
+    max-width: 960px;
 }
 
-#header {
+#main-name {
     background: #4aaaa5;
     color: white;
     margin-left: 40px;
@@ -15,7 +16,7 @@ header {
     top: 0;
     left: 40px;
     padding-top: 17px;
-    padding-bottom: 17px;
+    padding-bottom: 19px;
     padding-left: 40px;
     padding-right: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -57,12 +58,24 @@ body {
     border-bottom: #b6b3b3 solid 1px;
 }
 
+#bio-first-last {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-align: left;
+    width: 90%;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 #bio {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     text-align: left;
     width: 90%;
     line-height: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #main-photo {
@@ -71,6 +84,7 @@ body {
     float: left;
     margin: 40px;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 #section-content { 
@@ -78,7 +92,7 @@ body {
     background: #ffffff;
     clear: auto;
     height: 500px;
-    width: 960px;
+    max-width: 960px;
     float: center;
     margin: 40px;
     margin-left: 100px;
