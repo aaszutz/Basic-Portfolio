@@ -52,8 +52,10 @@ body {
 #about-me {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 40px;
-    
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-bottom: #b6b3b3 solid 1px;
 
 }
 
@@ -73,7 +75,7 @@ body {
 }
 
 #section-content { 
-    border: 1px solid black;
+    border: 1px solid #b6b3b3;
     background: #ffffff;
     clear: auto;
     height: 500px;
