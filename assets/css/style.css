@@ -95,7 +95,7 @@ body {
     float: center;
     margin: 40px;
     margin-left: 100px;
-
+    
 }
 
 a:hover {
@@ -118,3 +118,10 @@ a:active {
     padding: 30px;
     width: 100%;
 }
+
+.contact-container {
+    border: solid 1px gray;
+    margin: 40px;
+    max-width: 960px;
+}
+
